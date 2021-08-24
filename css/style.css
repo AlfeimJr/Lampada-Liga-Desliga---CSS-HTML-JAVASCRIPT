@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+#pai{
+    display: flex;
+    justify-content: center;
+    word-spacing: 20px;
+    
+}
+#lampada{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+#lampadas{
+    width: 14%;
+}
+#ligada{
+    width: 14%;
+}
+body{
+    background-color: black;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+#ligar{
+    margin: 0 20px;
+    padding: 10px;
+}
